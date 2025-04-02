@@ -356,3 +356,25 @@
 # Dashboard admin will have the access to all the workspaces(workspace.enabled: true) and objects inside OpenSearch Dashboards.
 # opensearchDashboards.dashboardAdmin.groups: ["dashboard_admin"]
 # opensearchDashboards.dashboardAdmin.users: ["dashboard_admin"]
+# server.host: '192.168.90.182'
+# server.port: 5606
+opensearch.username: 'admin'
+# opensearch.password: 'myStrongPassword123!'
+opensearch.password: 'MysDqo18MfP'
+opensearch.hosts: ['https://192.168.90.216:9205']
+# opensearch.hosts: ['https://localhost:9200']
+opensearch.requestHeadersWhitelist: [ authorization,securitytenant ]
+opensearch.ssl.verificationMode: none
+# opensearch_security.auth.type: ["basicauth", "saml"]
+# opensearch_security.auth.multiple_auth_enabled: true
+# opensearchDashboardsSecurity: 'admin@example.com'
+# opensearch-security-dashboards.enabled: false
+  
+# mfa:
+#   smtp:
+#     host: 'smtp.example.com'
+    # port: 465
+    # secure: true
+    # sender_email: 'user@example.com'
+    # sender_password: 'password'
+
